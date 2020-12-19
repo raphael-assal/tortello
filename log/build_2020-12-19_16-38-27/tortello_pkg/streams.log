@@ -1,0 +1,27 @@
+[0.402s] Invoking command in '/home/raphael/Documenti/Programming/tortello/src/tortello_pkg': COMP_WORDBREAKS=
+"'><;|&(: PYTHONPATH=/home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tortello_pkg build --build-base /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build install --prefix /home/raphael/Documenti/Programming/tortello/install/tortello_pkg --record /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/install.log --single-version-externally-managed
+[0.756s] running egg_info
+[0.757s] writing ../../build/tortello_pkg/tortello_pkg.egg-info/PKG-INFO
+[0.758s] writing dependency_links to ../../build/tortello_pkg/tortello_pkg.egg-info/dependency_links.txt
+[0.758s] writing entry points to ../../build/tortello_pkg/tortello_pkg.egg-info/entry_points.txt
+[0.758s] writing requirements to ../../build/tortello_pkg/tortello_pkg.egg-info/requires.txt
+[0.759s] writing top-level names to ../../build/tortello_pkg/tortello_pkg.egg-info/top_level.txt
+[0.844s] reading manifest file '../../build/tortello_pkg/tortello_pkg.egg-info/SOURCES.txt'
+[0.846s] writing manifest file '../../build/tortello_pkg/tortello_pkg.egg-info/SOURCES.txt'
+[0.847s] running build
+[0.847s] running build_py
+[0.847s] copying tortello_pkg/subscriber_member_function.py -> /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build/lib/tortello_pkg
+[0.847s] running install
+[0.849s] running install_lib
+[0.854s] copying /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build/lib/tortello_pkg/subscriber_member_function.py -> /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg
+[0.854s] byte-compiling /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[0.855s] running install_data
+[0.856s] running install_egg_info
+[0.862s] removing '/home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.862s] Copying ../../build/tortello_pkg/tortello_pkg.egg-info to /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg-0.0.0-py3.8.egg-info
+[0.863s] running install_scripts
+[0.920s] Installing listener script to /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/tortello_pkg
+[0.920s] Installing talker script to /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/tortello_pkg
+[0.920s] writing list of installed files to '/home/raphael/Documenti/Programming/tortello/build/tortello_pkg/install.log'
+[0.963s] Invoked command in '/home/raphael/Documenti/Programming/tortello/src/tortello_pkg' returned '0': COMP_WORDBREAKS=
+"'><;|&(: PYTHONPATH=/home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tortello_pkg build --build-base /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build install --prefix /home/raphael/Documenti/Programming/tortello/install/tortello_pkg --record /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/install.log --single-version-externally-managed
