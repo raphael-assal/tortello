@@ -14,7 +14,5 @@ colcon build --packages-select <my_package>
 # Run package
 ros2 run my_package my_node
 
-
-
-# 
-rosdep install -i --from-path src --rosdistro <distro> -y
+# Check/Install dependencies (to run from root dir)
+rosdep install -i --from-path src --rosdistro foxy -y

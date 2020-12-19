@@ -2,7 +2,8 @@
 # ROS 2 Foxy (Ubuntu Focal) Installer
 # See: https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/
 
-echo '[*] Installing ROS 2 Foxy (Ubuntu Focal).'
+set -e
+echo '[*] Installing ROS 2 Foxy (Ubuntu Focal)'
 
 # Setup sources
 echo '[*] Setting-up sources'
@@ -25,7 +26,31 @@ echo '[*] Installing argcomplete'
 sudo apt install -y python3-pip
 pip3 install -U argcomplete
 
-# Install Tools
+# Install Colcon
+echo '[*] Installing Colcon'
 sudo apt install python3-colcon-common-extensions
+
+# Install Gazebo9
+echo '[*] Installing Gazebo11'
+sudo apt install gazebo11 ros-foxy-gazebo-ros-pkgs
+
+# Install Cartographer
+echo '[*] Installing Cartographer'
+sudo apt install ros-dashing-cartographer
+sudo apt install ros-dashing-cartographer-ros
+
+# Install Navigation2
+echo '[*] Installing Navigation2'
+sudo apt install ros-dashing-navigation2
+sudo apt install ros-dashing-nav2-bringup
+
+# Install vcstool
+echo '[*] Installing vcstool'
+sudo apt install python3-vcstool
+
+# TurtleBot
+echo '[*] Installing TurtleBot'
+wget https://raw.githubusercontent.com/ROBOTIS-GIT/turtlebot3/ros2/turtlebot3.repos
+vcs import src < turtlebot3.repos
 
 echo '[*] All done.'
