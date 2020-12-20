@@ -1,0 +1,91 @@
+[0.116s] Invoking command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake /home/raphael/Documenti/Programming/tortello/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node
+[2.000s] -- The C compiler identification is GNU 9.2.1
+[2.494s] -- The CXX compiler identification is GNU 9.2.1
+[2.560s] -- Check for working C compiler: /usr/bin/cc
+[2.830s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.834s] -- Detecting C compiler ABI info
+[3.080s] -- Detecting C compiler ABI info - done
+[3.103s] -- Detecting C compile features
+[3.124s] -- Detecting C compile features - done
+[3.131s] -- Check for working CXX compiler: /usr/bin/c++
+[3.302s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.304s] -- Detecting CXX compiler ABI info
+[3.456s] -- Detecting CXX compiler ABI info - done
+[3.485s] -- Detecting CXX compile features
+[3.486s] -- Detecting CXX compile features - done
+[3.510s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.589s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[3.589s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.093s] -- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.304s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.818s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.889s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.322s] -- Found nav_msgs: 2.0.3 (/opt/ros/foxy/share/nav_msgs/cmake)
+[5.452s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.702s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.707s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.740s] -- Looking for pthread.h
+[5.921s] -- Looking for pthread.h - found
+[5.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.197s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.198s] -- Looking for pthread_create in pthreads
+[6.339s] -- Looking for pthread_create in pthreads - not found
+[6.345s] -- Looking for pthread_create in pthread
+[6.489s] -- Looking for pthread_create in pthread - found
+[6.490s] -- Found Threads: TRUE  
+[6.903s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.081s] -- Found tf2: 0.13.9 (/opt/ros/foxy/share/tf2/cmake)
+[7.151s] -- Found tf2_msgs: 0.13.9 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[7.684s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)
+[8.098s] -- Configuring done
+[8.142s] -- Generating done
+[8.145s] -- Build files have been written to: /home/raphael/Documenti/Programming/tortello/build/turtlebot3_fake_node
+[8.159s] Invoked command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake /home/raphael/Documenti/Programming/tortello/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node
+[8.164s] Invoking command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --build /home/raphael/Documenti/Programming/tortello/build/turtlebot3_fake_node -- -j4 -l4
+[8.227s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[8.622s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[56.582s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[76.752s] [100%] Built target turtlebot3_fake_node
+[76.803s] Invoked command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --build /home/raphael/Documenti/Programming/tortello/build/turtlebot3_fake_node -- -j4 -l4
+[76.892s] Invoking command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --install /home/raphael/Documenti/Programming/tortello/build/turtlebot3_fake_node
+[76.914s] -- Install configuration: ""
+[76.915s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[76.922s] -- Set runtime path of "/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[76.924s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[76.924s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[76.927s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[76.928s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[76.929s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[76.931s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[76.931s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[76.932s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz
+[76.936s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[76.936s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/include/
+[76.937s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[76.937s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[76.944s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[76.944s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[76.948s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[76.971s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[76.972s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[77.014s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[77.015s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[77.016s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[77.018s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[77.020s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[77.021s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[77.023s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[77.023s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[77.024s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[77.026s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[77.027s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[77.027s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[77.035s] Invoked command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --install /home/raphael/Documenti/Programming/tortello/build/turtlebot3_fake_node

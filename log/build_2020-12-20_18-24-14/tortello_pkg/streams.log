@@ -1,0 +1,43 @@
+[0.603s] Invoking command in '/home/raphael/Documenti/Programming/tortello/src/tortello_pkg': COMP_WORDBREAKS=
+"'><;|&(: PYTHONPATH=/home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tortello_pkg build --build-base /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build install --prefix /home/raphael/Documenti/Programming/tortello/install/tortello_pkg --record /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/install.log --single-version-externally-managed
+[1.118s] running egg_info
+[1.119s] creating ../../build/tortello_pkg/tortello_pkg.egg-info
+[1.119s] writing ../../build/tortello_pkg/tortello_pkg.egg-info/PKG-INFO
+[1.120s] writing dependency_links to ../../build/tortello_pkg/tortello_pkg.egg-info/dependency_links.txt
+[1.120s] writing entry points to ../../build/tortello_pkg/tortello_pkg.egg-info/entry_points.txt
+[1.120s] writing requirements to ../../build/tortello_pkg/tortello_pkg.egg-info/requires.txt
+[1.120s] writing top-level names to ../../build/tortello_pkg/tortello_pkg.egg-info/top_level.txt
+[1.140s] writing manifest file '../../build/tortello_pkg/tortello_pkg.egg-info/SOURCES.txt'
+[1.239s] reading manifest file '../../build/tortello_pkg/tortello_pkg.egg-info/SOURCES.txt'
+[1.241s] writing manifest file '../../build/tortello_pkg/tortello_pkg.egg-info/SOURCES.txt'
+[1.242s] running build
+[1.242s] running build_py
+[1.242s] creating /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build
+[1.242s] creating /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build/lib
+[1.243s] creating /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build/lib/tortello_pkg
+[1.243s] copying tortello_pkg/publisher_member_function.py -> /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build/lib/tortello_pkg
+[1.268s] copying tortello_pkg/subscriber_member_function.py -> /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build/lib/tortello_pkg
+[1.277s] copying tortello_pkg/__init__.py -> /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build/lib/tortello_pkg
+[1.284s] running install
+[1.286s] running install_lib
+[1.290s] creating /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg
+[1.291s] copying /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build/lib/tortello_pkg/publisher_member_function.py -> /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg
+[1.291s] copying /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build/lib/tortello_pkg/subscriber_member_function.py -> /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg
+[1.292s] copying /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build/lib/tortello_pkg/__init__.py -> /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg
+[1.294s] byte-compiling /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[1.294s] byte-compiling /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[1.295s] byte-compiling /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg/__init__.py to __init__.cpython-38.pyc
+[1.295s] running install_data
+[1.458s] creating /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/share/ament_index
+[1.459s] creating /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/share/ament_index/resource_index
+[1.460s] creating /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/share/ament_index/resource_index/packages
+[1.460s] copying resource/tortello_pkg -> /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/share/ament_index/resource_index/packages
+[1.461s] copying package.xml -> /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/share/tortello_pkg
+[1.461s] running install_egg_info
+[1.482s] Copying ../../build/tortello_pkg/tortello_pkg.egg-info to /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg-0.0.0-py3.8.egg-info
+[1.484s] running install_scripts
+[1.613s] Installing listener script to /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/tortello_pkg
+[1.614s] Installing talker script to /home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/tortello_pkg
+[1.615s] writing list of installed files to '/home/raphael/Documenti/Programming/tortello/build/tortello_pkg/install.log'
+[1.676s] Invoked command in '/home/raphael/Documenti/Programming/tortello/src/tortello_pkg' returned '0': COMP_WORDBREAKS=
+"'><;|&(: PYTHONPATH=/home/raphael/Documenti/Programming/tortello/install/tortello_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tortello_pkg build --build-base /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/build install --prefix /home/raphael/Documenti/Programming/tortello/install/tortello_pkg --record /home/raphael/Documenti/Programming/tortello/build/tortello_pkg/install.log --single-version-externally-managed

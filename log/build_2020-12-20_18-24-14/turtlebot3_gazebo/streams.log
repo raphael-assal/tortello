@@ -1,0 +1,261 @@
+[0.080s] Invoking command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake /home/raphael/Documenti/Programming/tortello/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo
+[1.956s] -- The C compiler identification is GNU 9.2.1
+[2.452s] -- The CXX compiler identification is GNU 9.2.1
+[2.516s] -- Check for working C compiler: /usr/bin/cc
+[2.791s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.793s] -- Detecting C compiler ABI info
+[3.039s] -- Detecting C compiler ABI info - done
+[3.066s] -- Detecting C compile features
+[3.079s] -- Detecting C compile features - done
+[3.086s] -- Check for working CXX compiler: /usr/bin/c++
+[3.252s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.256s] -- Detecting CXX compiler ABI info
+[3.400s] -- Detecting CXX compiler ABI info - done
+[3.430s] -- Detecting CXX compile features
+[3.431s] -- Detecting CXX compile features - done
+[3.466s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.545s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[3.545s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.025s] -- Found gazebo_ros_pkgs: 3.5.0 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[4.048s] -- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.260s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.774s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.844s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.278s] -- Found nav_msgs: 2.0.3 (/opt/ros/foxy/share/nav_msgs/cmake)
+[5.407s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.658s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.663s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.696s] -- Looking for pthread.h
+[5.876s] -- Looking for pthread.h - found
+[5.880s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.140s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.141s] -- Looking for pthread_create in pthreads
+[6.301s] -- Looking for pthread_create in pthreads - not found
+[6.301s] -- Looking for pthread_create in pthread
+[6.440s] -- Looking for pthread_create in pthread - found
+[6.442s] -- Found Threads: TRUE  
+[6.859s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.036s] -- Found tf2: 0.13.9 (/opt/ros/foxy/share/tf2/cmake)
+[7.184s] -- Found turtlebot3: 2.1.0 (/opt/ros/foxy/share/turtlebot3/cmake)
+[7.378s] -- Configuring done
+[7.404s] -- Generating done
+[7.408s] -- Build files have been written to: /home/raphael/Documenti/Programming/tortello/build/turtlebot3_gazebo
+[7.430s] Invoked command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake /home/raphael/Documenti/Programming/tortello/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo
+[7.433s] Invoking command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --build /home/raphael/Documenti/Programming/tortello/build/turtlebot3_gazebo -- -j4 -l4
+[7.503s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[8.581s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[56.542s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[76.730s] [100%] Built target turtlebot3_drive
+[76.765s] Invoked command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --build /home/raphael/Documenti/Programming/tortello/build/turtlebot3_gazebo -- -j4 -l4
+[76.857s] Invoking command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --install /home/raphael/Documenti/Programming/tortello/build/turtlebot3_gazebo
+[76.882s] -- Install configuration: ""
+[76.882s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[76.888s] -- Set runtime path of "/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+[76.892s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[76.892s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[76.893s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[76.899s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace.launch.py
+[76.899s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[76.900s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[76.900s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[76.900s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[76.901s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[76.901s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[76.901s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[76.901s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[76.901s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4.sdf
+[76.902s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes
+[76.903s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae
+[76.905s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+[76.906s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+[76.906s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[76.907s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[76.908s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+[76.908s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+[76.908s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[76.909s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[76.909s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+[76.909s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[76.910s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[76.911s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/build
+[76.912s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/build/libobstacle1.so
+[76.986s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/build/libobstacle2.so
+[77.705s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/build/libobstacles.so
+[78.092s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[78.093s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[78.093s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+[78.094s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[78.095s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[78.095s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[78.096s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+[78.096s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[78.096s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[78.097s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+[78.098s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[78.101s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[78.101s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[78.102s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+[78.102s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[78.103s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[78.103s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[78.104s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[78.104s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes
+[78.105s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+[78.105s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae
+[78.106s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+[78.151s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+[78.152s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[78.152s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[78.153s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+[78.154s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[78.154s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes
+[78.155s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[78.155s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[78.156s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[78.157s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[78.157s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[78.158s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[78.158s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[78.305s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[78.306s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace
+[78.307s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles
+[78.308s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.sdf
+[78.309s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.config
+[78.309s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green
+[78.310s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.sdf
+[78.311s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.config
+[78.311s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down
+[78.312s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials
+[78.312s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts
+[78.313s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts/traffic_bar.material
+[78.314s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures
+[78.314s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures/traffic_bar.png
+[78.315s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.sdf
+[78.315s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.config
+[78.316s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course
+[78.316s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials
+[78.317s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts
+[78.317s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material
+[78.317s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures
+[78.318s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png
+[78.457s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.sdf
+[78.458s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config
+[78.459s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel
+[78.460s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials
+[78.460s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts
+[78.461s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts/tunnel.material
+[78.462s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures
+[78.462s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures/tunnel.png
+[78.465s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.sdf
+[78.466s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.config
+[78.467s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red
+[78.467s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.sdf
+[78.467s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.config
+[78.467s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking
+[78.468s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials
+[78.468s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts
+[78.468s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts/traffic_parking.material
+[78.469s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures
+[78.469s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures/traffic_parking.png
+[78.470s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.sdf
+[78.470s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.config
+[78.472s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop
+[78.472s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials
+[78.473s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts
+[78.473s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts/traffic_stop.material
+[78.474s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures
+[78.474s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures/traffic_stop.png
+[78.475s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.sdf
+[78.476s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.config
+[78.477s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow
+[78.477s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.sdf
+[78.477s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.config
+[78.478s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/model.config
+[78.478s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up
+[78.481s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials
+[78.481s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts
+[78.482s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts/traffic_bar.material
+[78.482s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures
+[78.482s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures/traffic_bar.png
+[78.482s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.sdf
+[78.485s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.config
+[78.485s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall
+[78.486s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.sdf
+[78.487s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.config
+[78.488s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights
+[78.488s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.sdf
+[78.489s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.config
+[78.490s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground
+[78.490s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.sdf
+[78.491s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.config
+[78.491s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[78.492s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[78.493s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[78.493s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[78.494s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[78.494s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[78.496s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[78.497s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[78.497s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[78.498s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[78.498s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds
+[78.498s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+[78.499s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+[78.500s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+[78.500s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4
+[78.501s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle.model
+[78.501s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle_pi.model
+[78.502s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/burger.model
+[78.502s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1
+[78.502s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle.model
+[78.504s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle_pi.model
+[78.505s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/burger.model
+[78.505s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds
+[78.506s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+[78.507s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+[78.508s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+[78.508s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces
+[78.509s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle.model
+[78.509s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle_pi.model
+[78.510s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/burger.model
+[78.510s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3
+[78.511s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle.model
+[78.511s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle_pi.model
+[78.511s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/burger.model
+[78.513s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses
+[78.514s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+[78.514s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+[78.515s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+[78.515s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2
+[78.516s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle.model
+[78.516s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle_pi.model
+[78.520s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/burger.model
+[78.524s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/include/
+[78.524s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[78.524s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[78.525s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[78.527s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[78.527s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[78.528s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[78.529s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[78.529s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[78.529s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[78.530s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[78.530s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[78.531s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[78.531s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[78.532s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[78.533s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[78.534s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[78.535s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[78.536s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[78.536s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[78.542s] Invoked command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --install /home/raphael/Documenti/Programming/tortello/build/turtlebot3_gazebo

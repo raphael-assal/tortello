@@ -1,0 +1,48 @@
+[0.044s] Invoking command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node:/home/raphael/Documenti/Programming/test/install/turtlebot3_simulations:/home/raphael/Documenti/Programming/test/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/test/install/turtlebot3_fake_node:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake /home/raphael/Documenti/Programming/tortello/src/turtlebot3_simulations/turtlebot3_simulations -DCMAKE_INSTALL_PREFIX=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations
+[3.918s] -- The C compiler identification is GNU 9.2.1
+[4.898s] -- The CXX compiler identification is GNU 9.2.1
+[5.281s] -- Check for working C compiler: /usr/bin/cc
+[5.706s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.805s] -- Detecting C compiler ABI info
+[7.916s] -- Detecting C compiler ABI info - done
+[7.982s] -- Detecting C compile features
+[7.995s] -- Detecting C compile features - done
+[8.811s] -- Check for working CXX compiler: /usr/bin/c++
+[8.936s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[8.939s] -- Detecting CXX compiler ABI info
+[9.387s] -- Detecting CXX compiler ABI info - done
+[9.412s] -- Detecting CXX compile features
+[9.414s] -- Detecting CXX compile features - done
+[9.461s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[10.103s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[10.104s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.120s] -- Configuring done
+[12.123s] -- Generating done
+[12.125s] -- Build files have been written to: /home/raphael/Documenti/Programming/tortello/build/turtlebot3_simulations
+[12.135s] Invoked command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node:/home/raphael/Documenti/Programming/test/install/turtlebot3_simulations:/home/raphael/Documenti/Programming/test/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/test/install/turtlebot3_fake_node:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake /home/raphael/Documenti/Programming/tortello/src/turtlebot3_simulations/turtlebot3_simulations -DCMAKE_INSTALL_PREFIX=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations
+[12.139s] Invoking command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node:/home/raphael/Documenti/Programming/test/install/turtlebot3_simulations:/home/raphael/Documenti/Programming/test/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/test/install/turtlebot3_fake_node:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --build /home/raphael/Documenti/Programming/tortello/build/turtlebot3_simulations -- -j4 -l4
+[12.200s] Invoked command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node:/home/raphael/Documenti/Programming/test/install/turtlebot3_simulations:/home/raphael/Documenti/Programming/test/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/test/install/turtlebot3_fake_node:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --build /home/raphael/Documenti/Programming/tortello/build/turtlebot3_simulations -- -j4 -l4
+[12.235s] Invoking command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node:/home/raphael/Documenti/Programming/test/install/turtlebot3_simulations:/home/raphael/Documenti/Programming/test/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/test/install/turtlebot3_fake_node:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --install /home/raphael/Documenti/Programming/tortello/build/turtlebot3_simulations
+[12.250s] -- Install configuration: ""
+[12.251s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+[12.251s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+[12.252s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+[12.252s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+[12.252s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+[12.253s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+[12.253s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+[12.253s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+[12.253s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+[12.254s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+[12.254s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+[12.254s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+[12.254s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+[12.255s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+[12.255s] -- Installing: /home/raphael/Documenti/Programming/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml
+[12.261s] Invoked command in '/home/raphael/Documenti/Programming/tortello/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raphael/Documenti/Programming/tortello/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/tortello/install/turtlebot3_fake_node:/home/raphael/Documenti/Programming/test/install/turtlebot3_simulations:/home/raphael/Documenti/Programming/test/install/turtlebot3_gazebo:/home/raphael/Documenti/Programming/test/install/turtlebot3_fake_node:/home/raphael/Documenti/Programming/test/install/ttt:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --install /home/raphael/Documenti/Programming/tortello/build/turtlebot3_simulations

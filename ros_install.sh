@@ -30,19 +30,19 @@ pip3 install -U argcomplete
 echo '[*] Installing Colcon'
 sudo apt install python3-colcon-common-extensions
 
-# Install Gazebo9
+# Install Gazebo11
 echo '[*] Installing Gazebo11'
 sudo apt install gazebo11 ros-foxy-gazebo-ros-pkgs
 
 # Install Cartographer
 echo '[*] Installing Cartographer'
-sudo apt install ros-dashing-cartographer
-sudo apt install ros-dashing-cartographer-ros
+sudo apt install ros-foxy-cartographer
+sudo apt install ros-foxy-cartographer-ros
 
 # Install Navigation2
 echo '[*] Installing Navigation2'
-sudo apt install ros-dashing-navigation2
-sudo apt install ros-dashing-nav2-bringup
+sudo apt install ros-foxy-navigation2
+sudo apt install ros-foxy-nav2-bringup
 
 # Install vcstool
 echo '[*] Installing vcstool'
