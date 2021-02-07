@@ -1,0 +1,4 @@
+Invoking command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo': COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --build /home/raphael/devel/tortello/build/turtlebot3_gazebo -- -j4 -l4
+Invoked command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo' returned '2': COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --build /home/raphael/devel/tortello/build/turtlebot3_gazebo -- -j4 -l4

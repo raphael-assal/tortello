@@ -1,0 +1,235 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found gazebo_ros_pkgs: 3.5.0 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+-- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav_msgs: 2.0.3 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found tf2: 0.13.9 (/opt/ros/foxy/share/tf2/cmake)
+-- Found turtlebot3: 2.1.0 (/opt/ros/foxy/share/turtlebot3/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/raphael/devel/tortello/build/turtlebot3_gazebo
+[35m[1mScanning dependencies of target turtlebot3_drive[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[100%] Built target turtlebot3_drive
+-- Install configuration: ""
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+-- Set runtime path of "/home/raphael/devel/tortello/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace.launch.py
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/build
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/build/libobstacle1.so
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/build/libobstacle2.so
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/build/libobstacles.so
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts/traffic_bar.material
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures/traffic_bar.png
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts/tunnel.material
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures/tunnel.png
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts/traffic_parking.material
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures/traffic_parking.png
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts/traffic_stop.material
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures/traffic_stop.png
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts/traffic_bar.material
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures/traffic_bar.png
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle_pi.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/burger.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle_pi.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/burger.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle_pi.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/burger.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle_pi.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/burger.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle_pi.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/burger.model
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/include/
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+-- Installing: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+-- Up-to-date: /home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml

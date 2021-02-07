@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 14, in <module>
+    from setuptools.extern.six import PY3, string_types
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 618, in _load_backward_compatible
+  File "/usr/lib/python3/dist-packages/setuptools/extern/__init__.py", line 43, in load_module
+    __import__(extant)
+KeyboardInterrupt

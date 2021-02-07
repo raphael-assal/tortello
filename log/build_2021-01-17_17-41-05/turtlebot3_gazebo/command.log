@@ -1,0 +1,4 @@
+Invoking command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo': COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake /home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/raphael/devel/tortello/install/turtlebot3_gazebo
+Invoked command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo' returned '1': COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake /home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/raphael/devel/tortello/install/turtlebot3_gazebo

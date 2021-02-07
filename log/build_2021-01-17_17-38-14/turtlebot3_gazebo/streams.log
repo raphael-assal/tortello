@@ -1,0 +1,37 @@
+[0.058s] Invoking command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo': COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake /home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/raphael/devel/tortello/install/turtlebot3_gazebo
+[2.134s] -- The C compiler identification is GNU 9.2.1
+[3.215s] -- The CXX compiler identification is GNU 9.2.1
+[3.319s] -- Check for working C compiler: /usr/bin/cc
+[3.520s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.523s] -- Detecting C compiler ABI info
+[3.748s] -- Detecting C compiler ABI info - done
+[3.779s] -- Detecting C compile features
+[3.779s] -- Detecting C compile features - done
+[3.785s] -- Check for working CXX compiler: /usr/bin/c++
+[3.943s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.945s] -- Detecting CXX compiler ABI info
+[4.161s] -- Detecting CXX compiler ABI info - done
+[4.185s] -- Detecting CXX compile features
+[4.187s] -- Detecting CXX compile features - done
+[4.243s] CMake Error at CMakeLists.txt:22 (find_package):
+[4.243s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[4.244s]   has asked CMake to find a package configuration file provided by
+[4.244s]   "ament_cmake", but CMake did not find one.
+[4.244s] 
+[4.251s]   Could not find a package configuration file provided by "ament_cmake" with
+[4.253s]   any of the following names:
+[4.254s] 
+[4.255s]     ament_cmakeConfig.cmake
+[4.255s]     ament_cmake-config.cmake
+[4.255s] 
+[4.255s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[4.255s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[4.257s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[4.257s]   has been installed.
+[4.257s] 
+[4.258s] 
+[4.258s] -- Configuring incomplete, errors occurred!
+[4.258s] See also "/home/raphael/devel/tortello/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[4.259s] Invoked command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo' returned '1': COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake /home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/raphael/devel/tortello/install/turtlebot3_gazebo

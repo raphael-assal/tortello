@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /home/raphael/devel/tortello/build/turtlebot3_fake_node/CMakeCache.txt is different than the directory /home/raphael/Documenti/Programming/tortello/build/turtlebot3_fake_node where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/raphael/Documenti/Programming/tortello/src/turtlebot3_simulations/turtlebot3_fake_node" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:266: cmake_check_build_system] Fehler 1

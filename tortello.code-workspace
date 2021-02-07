@@ -3,5 +3,8 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"python.pythonPath": "env/tortello_desktop/bin/python3"
+	}
 }

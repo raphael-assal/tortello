@@ -1,0 +1,1206 @@
+[0.275s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.275s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe4074944c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe4074944c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe407494a00>)
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.290s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/raphael/devel/tortello'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(env) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/bin) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/include) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/__pycache__) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/__pycache__) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/__pycache__) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/cli/__pycache__) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['python_setup_py']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/commands/__pycache__) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['cmake', 'python']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/distributions/__pycache__) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extensions ['cmake', 'python']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extension 'cmake'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/index/__pycache__) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extension 'ros'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/models/__pycache__) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network) by extension 'python_setup_py'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extension 'ros'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extensions ['cmake', 'python']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extension 'cmake'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extension 'python'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extensions ['python_setup_py']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/network/__pycache__) by extension 'python_setup_py'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extension 'ros'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extension 'cmake'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extension 'python'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['python_setup_py']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extension 'python'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extensions ['python_setup_py']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/__pycache__) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extension 'ros'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/build/__pycache__) by extension 'python_setup_py'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'python_setup_py'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extension 'ros'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extensions ['cmake', 'python']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extension 'cmake'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extension 'python'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extensions ['python_setup_py']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/operations/install/__pycache__) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extension 'ros'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extensions ['cmake', 'python']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extension 'cmake'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extension 'python'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extensions ['python_setup_py']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req) by extension 'python_setup_py'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extension 'cmake'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extension 'python'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extensions ['python_setup_py']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/req/__pycache__) by extension 'python_setup_py'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/utils/__pycache__) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extension 'ros'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extensions ['cmake', 'python']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extension 'cmake'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extension 'python'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extensions ['python_setup_py']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_internal/vcs/__pycache__) by extension 'python_setup_py'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extension 'cmake'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extension 'python'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extension 'cmake'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extension 'python'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extensions ['python_setup_py']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip/_vendor/__pycache__) by extension 'python_setup_py'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'ros'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['cmake', 'python']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'cmake'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'python'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['python_setup_py']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extension 'ros'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extension 'cmake'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extension 'python'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extensions ['python_setup_py']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources) by extension 'python_setup_py'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'ros'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['cmake', 'python']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'cmake'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'python'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['python_setup_py']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'python_setup_py'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['cmake', 'python']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'python'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['python_setup_py']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'ros'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['cmake', 'python']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'cmake'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'python'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['python_setup_py']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'ros'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['cmake', 'python']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'cmake'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'python'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['python_setup_py']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'python_setup_py'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'ros'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['cmake', 'python']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'cmake'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'python'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['python_setup_py']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'python_setup_py'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extension 'ros'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['cmake', 'python']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extension 'cmake'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extension 'python'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['python_setup_py']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern) by extension 'python_setup_py'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['cmake', 'python']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'cmake'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'python'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['python_setup_py']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'python_setup_py'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'ros'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['cmake', 'python']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'cmake'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'python'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['python_setup_py']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'python_setup_py'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extension 'ros'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extensions ['cmake', 'python']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extension 'cmake'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extension 'python'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extensions ['python_setup_py']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools) by extension 'python_setup_py'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extension 'ros'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extensions ['cmake', 'python']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extension 'cmake'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extension 'python'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extensions ['python_setup_py']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/__pycache__) by extension 'python_setup_py'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['cmake', 'python']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extension 'cmake'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extension 'python'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['python_setup_py']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor) by extension 'python_setup_py'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extension 'ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extensions ['cmake', 'python']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extension 'cmake'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extension 'python'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extensions ['python_setup_py']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/__pycache__) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'ros'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['cmake', 'python']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'cmake'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'python'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['python_setup_py']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'python_setup_py'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extension 'ros'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extensions ['cmake', 'python']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extension 'cmake'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extension 'python'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/_vendor/packaging/__pycache__) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command) by extension 'python_setup_py'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/command/__pycache__) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extension 'ros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extensions ['cmake', 'python']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools/extern/__pycache__) by extension 'python_setup_py'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'ros'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['cmake', 'python']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'cmake'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'python'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['python_setup_py']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'python_setup_py'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extension 'ros'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extensions ['cmake', 'python']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extension 'cmake'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extension 'python'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extensions ['python_setup_py']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share) by extension 'python_setup_py'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extensions ['cmake', 'python']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extension 'cmake'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extension 'python'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extensions ['python_setup_py']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(env/tortello_desktop/share/python-wheels) by extension 'python_setup_py'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortello_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortello_pkg) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortello_pkg) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortello_pkg) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortello_pkg) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortello_pkg) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortello_pkg) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortello_pkg) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortello_pkg) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortello_pkg' with type 'ros.ament_python' and name 'tortello_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_meta'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ros'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'cmake'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python_setup_py'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[0.412s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[0.414s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[0.416s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'tortello_pkg' build argument 'cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'tortello_pkg' build argument 'cmake_target' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'tortello_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'tortello_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'tortello_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'tortello_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'tortello_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'tortello_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'tortello_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.445s] DEBUG:colcon.colcon_core.verb:Building package 'tortello_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raphael/devel/tortello/build/tortello_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raphael/devel/tortello/install/tortello_pkg', 'merge_install': False, 'path': '/home/raphael/devel/tortello/src/tortello_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.449s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raphael/devel/tortello/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raphael/devel/tortello/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': False, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raphael/devel/tortello/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raphael/devel/tortello/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raphael/devel/tortello/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raphael/devel/tortello/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.457s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.461s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[0.461s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_fake_node'
+[0.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.467s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.471s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.477s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[0.478s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_gazebo'
+[0.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.485s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.495s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/raphael/devel/tortello/src/tortello_pkg' with build type 'ament_python'
+[0.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortello_pkg', 'ament_prefix_path')
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/tortello_pkg/share/tortello_pkg/hook/ament_prefix_path.ps1'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raphael/devel/tortello/install/tortello_pkg/share/tortello_pkg/hook/ament_prefix_path.dsv'
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/tortello_pkg/share/tortello_pkg/hook/ament_prefix_path.sh'
+[0.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.509s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raphael/devel/tortello/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/devel/tortello/install/tortello_pkg:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake --build /home/raphael/devel/tortello/build/turtlebot3_fake_node -- -j4 -l4
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/devel/tortello/install/tortello_pkg:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake --build /home/raphael/devel/tortello/build/turtlebot3_gazebo -- -j4 -l4
+[1.041s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/raphael/devel/tortello/src/tortello_pkg'
+[1.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.043s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.046s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raphael/devel/tortello/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/devel/tortello/install/tortello_pkg:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake --build /home/raphael/devel/tortello/build/turtlebot3_fake_node -- -j4 -l4
+[1.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/devel/tortello/install/tortello_pkg:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake --build /home/raphael/devel/tortello/build/turtlebot3_gazebo -- -j4 -l4
+[1.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raphael/devel/tortello/src/tortello_pkg': COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/raphael/devel/tortello/install/tortello_pkg/lib/python3.8/site-packages:${PYTHONPATH} _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/python3 setup.py egg_info --egg-base ../../build/tortello_pkg build --build-base /home/raphael/devel/tortello/build/tortello_pkg/build install --prefix /home/raphael/devel/tortello/install/tortello_pkg --record /home/raphael/devel/tortello/build/tortello_pkg/install.log --single-version-externally-managed
+[1.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raphael/devel/tortello/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/devel/tortello/install/tortello_pkg:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake --install /home/raphael/devel/tortello/build/turtlebot3_fake_node
+[1.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/devel/tortello/install/tortello_pkg:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake --install /home/raphael/devel/tortello/build/turtlebot3_gazebo
+[1.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_fake_node' for CMake module files
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_fake_node' for CMake config files
+[1.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[1.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[1.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_fake_node/lib'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_fake_node/bin'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_fake_node/lib/python3.8/site-packages'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[1.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[1.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[1.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raphael/devel/tortello/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/devel/tortello/install/tortello_pkg:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake --install /home/raphael/devel/tortello/build/turtlebot3_fake_node
+[1.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_gazebo' for CMake module files
+[1.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raphael/devel/tortello/install/tortello_pkg:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake --install /home/raphael/devel/tortello/build/turtlebot3_gazebo
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_gazebo' for CMake config files
+[1.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_gazebo/lib'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_gazebo/bin'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[1.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[1.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_gazebo' for CMake module files
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_gazebo' for CMake config files
+[1.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[1.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_gazebo/lib'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_gazebo/bin'
+[1.446s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[1.446s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[1.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[1.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raphael/devel/tortello/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[1.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_fake_node' for CMake module files
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_fake_node' for CMake config files
+[1.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[1.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[1.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_fake_node/lib'
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_fake_node/bin'
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_fake_node/lib/python3.8/site-packages'
+[1.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[1.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[1.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raphael/devel/tortello/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[1.496s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_simulations' with build type 'ament_cmake'
+[1.500s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_simulations'
+[1.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.522s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raphael/devel/tortello/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/raphael/devel/tortello/install/turtlebot3_gazebo:/home/raphael/devel/tortello/install/turtlebot3_fake_node:/home/raphael/devel/tortello/install/turtlebot3_simulations:/home/raphael/devel/tortello/install/tortello_pkg:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake --build /home/raphael/devel/tortello/build/turtlebot3_simulations -- -j4 -l4
+[1.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raphael/devel/tortello/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/raphael/devel/tortello/install/turtlebot3_gazebo:/home/raphael/devel/tortello/install/turtlebot3_fake_node:/home/raphael/devel/tortello/install/turtlebot3_simulations:/home/raphael/devel/tortello/install/tortello_pkg:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake --build /home/raphael/devel/tortello/build/turtlebot3_simulations -- -j4 -l4
+[1.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raphael/devel/tortello/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/raphael/devel/tortello/install/turtlebot3_gazebo:/home/raphael/devel/tortello/install/turtlebot3_fake_node:/home/raphael/devel/tortello/install/turtlebot3_simulations:/home/raphael/devel/tortello/install/tortello_pkg:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake --install /home/raphael/devel/tortello/build/turtlebot3_simulations
+[1.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_simulations' for CMake module files
+[1.888s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_simulations' for CMake config files
+[1.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[1.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[1.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[1.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raphael/devel/tortello/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/raphael/devel/tortello/install/turtlebot3_gazebo:/home/raphael/devel/tortello/install/turtlebot3_fake_node:/home/raphael/devel/tortello/install/turtlebot3_simulations:/home/raphael/devel/tortello/install/tortello_pkg:/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake --install /home/raphael/devel/tortello/build/turtlebot3_simulations
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_simulations/bin'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_simulations/lib/python3.8/site-packages'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[1.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[1.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[1.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[1.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raphael/devel/tortello/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[1.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[1.955s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_simulations' for CMake module files
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_simulations' for CMake config files
+[1.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[1.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[1.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[1.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_simulations/bin'
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/turtlebot3_simulations/lib/python3.8/site-packages'
+[1.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[1.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[1.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[1.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[1.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[1.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raphael/devel/tortello/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/tortello_pkg' for CMake module files
+[2.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raphael/devel/tortello/src/tortello_pkg' returned '0': COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/raphael/devel/tortello/install/tortello_pkg/lib/python3.8/site-packages:${PYTHONPATH} _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/python3 setup.py egg_info --egg-base ../../build/tortello_pkg build --build-base /home/raphael/devel/tortello/build/tortello_pkg/build install --prefix /home/raphael/devel/tortello/install/tortello_pkg --record /home/raphael/devel/tortello/build/tortello_pkg/install.log --single-version-externally-managed
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/tortello_pkg' for CMake config files
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/tortello_pkg/lib'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/tortello_pkg/bin'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/tortello_pkg/lib/pkgconfig/tortello_pkg.pc'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/raphael/devel/tortello/install/tortello_pkg/lib/python3.8/site-packages'
+[2.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('tortello_pkg', 'pythonpath')
+[2.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/tortello_pkg/share/tortello_pkg/hook/pythonpath.ps1'
+[2.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raphael/devel/tortello/install/tortello_pkg/share/tortello_pkg/hook/pythonpath.dsv'
+[2.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raphael/devel/tortello/install/tortello_pkg/share/tortello_pkg/hook/pythonpath.sh'
+[2.205s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tortello_pkg)
+[2.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/tortello_pkg/share/tortello_pkg/package.ps1'
+[2.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raphael/devel/tortello/install/tortello_pkg/share/tortello_pkg/package.dsv'
+[2.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/tortello_pkg/share/tortello_pkg/package.sh'
+[2.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/tortello_pkg/share/tortello_pkg/package.bash'
+[2.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/raphael/devel/tortello/install/tortello_pkg/share/tortello_pkg/package.zsh'
+[2.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raphael/devel/tortello/install/tortello_pkg/share/colcon-core/packages/tortello_pkg)
+[2.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.211s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.222s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.222s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.222s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.228s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.230s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raphael/devel/tortello/install/local_setup.ps1'
+[2.233s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raphael/devel/tortello/install/_local_setup_util_ps1.py'
+[2.236s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raphael/devel/tortello/install/setup.ps1'
+[2.241s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raphael/devel/tortello/install/local_setup.sh'
+[2.242s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raphael/devel/tortello/install/_local_setup_util_sh.py'
+[2.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raphael/devel/tortello/install/setup.sh'
+[2.249s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raphael/devel/tortello/install/local_setup.bash'
+[2.251s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raphael/devel/tortello/install/setup.bash'
+[2.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raphael/devel/tortello/install/local_setup.zsh'
+[2.261s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raphael/devel/tortello/install/setup.zsh'

@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/tortello_pkg/tortello_pkg.egg-info
+writing ../../build/tortello_pkg/tortello_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/tortello_pkg/tortello_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/tortello_pkg/tortello_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/tortello_pkg/tortello_pkg.egg-info/requires.txt
+writing top-level names to ../../build/tortello_pkg/tortello_pkg.egg-info/top_level.txt
+writing manifest file '../../build/tortello_pkg/tortello_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/tortello_pkg/tortello_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/tortello_pkg/tortello_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/raphael/devel/tortello/build/tortello_pkg/build
+creating /home/raphael/devel/tortello/build/tortello_pkg/build/lib
+creating /home/raphael/devel/tortello/build/tortello_pkg/build/lib/tortello_pkg
+copying tortello_pkg/publisher_member_function.py -> /home/raphael/devel/tortello/build/tortello_pkg/build/lib/tortello_pkg
+copying tortello_pkg/controller_ps4.py -> /home/raphael/devel/tortello/build/tortello_pkg/build/lib/tortello_pkg
+copying tortello_pkg/subscriber_member_function.py -> /home/raphael/devel/tortello/build/tortello_pkg/build/lib/tortello_pkg
+copying tortello_pkg/__init__.py -> /home/raphael/devel/tortello/build/tortello_pkg/build/lib/tortello_pkg
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/raphael/devel/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/tortello_pkg/tortello_pkg.egg-info to /home/raphael/devel/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/raphael/devel/tortello/install/tortello_pkg/lib/tortello_pkg
+Installing talker script to /home/raphael/devel/tortello/install/tortello_pkg/lib/tortello_pkg
+writing list of installed files to '/home/raphael/devel/tortello/build/tortello_pkg/install.log'

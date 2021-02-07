@@ -1,0 +1,24 @@
+[0.581s] Invoking command in '/home/raphael/devel/tortello/src/tortello_pkg': COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/raphael/devel/tortello/install/tortello_pkg/lib/python3.8/site-packages:${PYTHONPATH} _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/python3 setup.py egg_info --egg-base ../../build/tortello_pkg build --build-base /home/raphael/devel/tortello/build/tortello_pkg/build install --prefix /home/raphael/devel/tortello/install/tortello_pkg --record /home/raphael/devel/tortello/build/tortello_pkg/install.log --single-version-externally-managed
+[1.306s] running egg_info
+[1.307s] writing ../../build/tortello_pkg/tortello_pkg.egg-info/PKG-INFO
+[1.307s] writing dependency_links to ../../build/tortello_pkg/tortello_pkg.egg-info/dependency_links.txt
+[1.308s] writing entry points to ../../build/tortello_pkg/tortello_pkg.egg-info/entry_points.txt
+[1.308s] writing requirements to ../../build/tortello_pkg/tortello_pkg.egg-info/requires.txt
+[1.308s] writing top-level names to ../../build/tortello_pkg/tortello_pkg.egg-info/top_level.txt
+[1.421s] reading manifest file '../../build/tortello_pkg/tortello_pkg.egg-info/SOURCES.txt'
+[1.423s] writing manifest file '../../build/tortello_pkg/tortello_pkg.egg-info/SOURCES.txt'
+[1.424s] running build
+[1.424s] running build_py
+[1.424s] running install
+[1.426s] running install_lib
+[1.431s] running install_data
+[1.432s] running install_egg_info
+[1.437s] removing '/home/raphael/devel/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.438s] Copying ../../build/tortello_pkg/tortello_pkg.egg-info to /home/raphael/devel/tortello/install/tortello_pkg/lib/python3.8/site-packages/tortello_pkg-0.0.0-py3.8.egg-info
+[1.440s] running install_scripts
+[1.501s] Installing listener script to /home/raphael/devel/tortello/install/tortello_pkg/lib/tortello_pkg
+[1.501s] Installing talker script to /home/raphael/devel/tortello/install/tortello_pkg/lib/tortello_pkg
+[1.502s] writing list of installed files to '/home/raphael/devel/tortello/build/tortello_pkg/install.log'
+[1.548s] Invoked command in '/home/raphael/devel/tortello/src/tortello_pkg' returned '0': COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/raphael/devel/tortello/install/tortello_pkg/lib/python3.8/site-packages:${PYTHONPATH} _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/python3 setup.py egg_info --egg-base ../../build/tortello_pkg build --build-base /home/raphael/devel/tortello/build/tortello_pkg/build install --prefix /home/raphael/devel/tortello/install/tortello_pkg --record /home/raphael/devel/tortello/build/tortello_pkg/install.log --single-version-externally-managed

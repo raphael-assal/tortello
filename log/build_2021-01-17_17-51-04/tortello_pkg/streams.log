@@ -1,0 +1,16 @@
+[0.582s] Invoking command in '/home/raphael/devel/tortello/src/tortello_pkg': COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/raphael/devel/tortello/install/tortello_pkg/lib/python3.8/site-packages:${PYTHONPATH} _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/python3 setup.py egg_info --egg-base ../../build/tortello_pkg build --build-base /home/raphael/devel/tortello/build/tortello_pkg/build install --prefix /home/raphael/devel/tortello/install/tortello_pkg --record /home/raphael/devel/tortello/build/tortello_pkg/install.log --single-version-externally-managed
+[0.780s] Traceback (most recent call last):
+[0.781s]   File "setup.py", line 1, in <module>
+[0.781s]     from setuptools import setup
+[0.781s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 14, in <module>
+[0.781s]     from setuptools.extern.six import PY3, string_types
+[0.782s]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[0.782s]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[0.782s]   File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+[0.782s]   File "<frozen importlib._bootstrap>", line 618, in _load_backward_compatible
+[0.782s]   File "/usr/lib/python3/dist-packages/setuptools/extern/__init__.py", line 43, in load_module
+[0.783s]     __import__(extant)
+[0.783s] KeyboardInterrupt
+[0.818s] Invoked command in '/home/raphael/devel/tortello/src/tortello_pkg' returned '-2': COMP_WORDBREAKS=
+"'><;|&(: IFS= PS1=(tortello_desktop) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/raphael/devel/tortello/install/tortello_pkg/lib/python3.8/site-packages:${PYTHONPATH} _OLD_VIRTUAL_PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/python3 setup.py egg_info --egg-base ../../build/tortello_pkg build --build-base /home/raphael/devel/tortello/build/tortello_pkg/build install --prefix /home/raphael/devel/tortello/install/tortello_pkg --record /home/raphael/devel/tortello/build/tortello_pkg/install.log --single-version-externally-managed

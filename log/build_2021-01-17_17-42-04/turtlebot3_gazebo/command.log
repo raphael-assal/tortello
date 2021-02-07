@@ -1,0 +1,12 @@
+Invoking command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake /home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/raphael/devel/tortello/install/turtlebot3_gazebo
+Invoked command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake /home/raphael/devel/tortello/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/raphael/devel/tortello/install/turtlebot3_gazebo
+Invoking command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --build /home/raphael/devel/tortello/build/turtlebot3_gazebo -- -j4 -l4
+Invoked command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --build /home/raphael/devel/tortello/build/turtlebot3_gazebo -- -j4 -l4
+Invoking command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --install /home/raphael/devel/tortello/build/turtlebot3_gazebo
+Invoked command in '/home/raphael/devel/tortello/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy COMP_WORDBREAKS=
+"'><;|&(: /usr/bin/cmake --install /home/raphael/devel/tortello/build/turtlebot3_gazebo

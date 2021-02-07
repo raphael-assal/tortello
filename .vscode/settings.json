@@ -1,3 +1,6 @@
 {
-    "python.pythonPath": "/home/raphael/anaconda2/bin/python"
+    "python.pythonPath": "env/tortello_desktop/bin/python3",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false
 }
